@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Subtraction {
+public class Multiplication {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -9,6 +9,6 @@ public class Subtraction {
         System.out.println("Enter Your second Number : ");
         int num2 = sc.nextInt();
 
-        System.out.println("Subtract of your number is :"+(num1-num2));
+        System.out.println("Multiplication of your number is :"+(num1*num2));
     }
 }
